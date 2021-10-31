@@ -1,20 +1,5 @@
 
-/*--------------------------------------------------------------------------------
- * 	Module Name : LMSScreen.java
- * 	Programmer  : Elliott Gorman
- * 	Date        : 7/11/2021	
- * 
- *	Purpose:
- *		This class uses Swing JFrames to create screens for the LMS. It is 
- *		a wrapper class for JFrame.
- *  
- *  Submodule Calls / Class Usages:
- *  	NA
- *  
- * 	Modification History:	
- * 		NA
- *
- *-------------------------------------------------------------------------------*/
+
 
 import javax.swing.*;
 import java.awt.Component;
