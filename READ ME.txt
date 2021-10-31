@@ -15,7 +15,7 @@ CONTENTS OF THIS FOLDER:
 	- All source code
 	- JBDC a.k.a. "mysql-connector-java-8.0.25.jar"
 	- JTable + Extras "
-	- CSV files as given by Dr. Davis.
+	- CSV files as given 
 
 TO CREATE THE DATABASE:
 	In order to create the database, a Java class "LibraryManagementSystem" 
@@ -25,9 +25,7 @@ TO CREATE THE DATABASE:
 	how attributes are represented) from the one you use. Feel free to run
 	this program if need be. Note that it will take ~10 minutes to complete.
 	
-	If you need to run it, you must provide two command line arguments. The
-	first is the "books.csv" file provided by Dr. Davis. The second is the
-	"borrowers.csv" file provided by Dr. Davis.
+	
 
 TO RUN THE LMS:
 	The LMS has two external dependencies: JDBC, which is used to 
