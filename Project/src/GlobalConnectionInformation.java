@@ -1,13 +1,3 @@
-/*--------------------------------------------------------------------------------
- * 	Module Name : LMS.java
- * 	Programmer  : Elliott Gorman etc.
- * 	Date        : 7/11/2021	
- * 
- *	Purpose:
- *		This class is simply used for specifying the desired connection for 
- *		components of the LMS.
- *
- *-------------------------------------------------------------------------------*/
 
 
 public class GlobalConnectionInformation {
