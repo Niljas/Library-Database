@@ -1,21 +1,4 @@
 
-/*--------------------------------------------------------------------------------
- * 	Module Name : LMS.java
- * 	Programmer  : Elliott Gorman etc.
- * 	Date        : 7/11/2021	
- * 
- *	Purpose:
- *		This is the main driver class for the Library management system. It 
- *		is the starting point for all major components of the LMS.
- *  
- *  Submodule Calls / Class Usages:
- *  	LMSScreen()
- *  
- * 	Modification History:	
- * 		- Title, Programmer, Date
- * 			Modification 1 Notes
- *
- *-------------------------------------------------------------------------------*/
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
