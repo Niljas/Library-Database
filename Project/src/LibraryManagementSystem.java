@@ -1,4 +1,3 @@
-//Team Purple - Library Management System 
 //Database Initialization Code + Menu Sample Design Code
 
 import java.io.*;
