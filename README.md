@@ -1,1 +1,49 @@
-# Library-Database
+Author       : Nilay Jasapara
+Java-version : 12.0.2 (at least)
+IDE Used     : Eclipse
+Eclipse-vers : 4.12.0
+
+CONTENTS OF THIS FOLDER:
+	All of the required documents are provided. In addition, the following
+	files are included:
+	
+	- Eclipse Project with all Source Code
+		This is provided in hopes that, if you're lucky, you can just
+		throw this into your Eclipse IDE and run the project with
+		no issues.
+
+	- All source code
+	- JBDC a.k.a. "mysql-connector-java-8.0.25.jar"
+	- JTable + Extras "
+	- CSV files as given by Dr. Davis.
+
+TO CREATE THE DATABASE:
+	In order to create the database, a Java class "LibraryManagementSystem" 
+	is provided. It is SEPARATE from the rest of the codebase (although
+	included together). It contains its own main method and functions to
+	create the library database. Our schema may differ slightly (generally by
+	how attributes are represented) from the one you use. Feel free to run
+	this program if need be. Note that it will take ~10 minutes to complete.
+	
+
+
+TO RUN THE LMS:
+	The LMS has two external dependencies: JDBC, which is used to 
+	connect to MySQL. It is provided in a separate .jar file that must
+	be included in your java project. It is the file 
+	"mysql-connector-java-8.0.25.jar". 
+	...
+	It also has "rs2xml.jar" which is used to display some queries as it
+	contains a handy table object to display queries. This must also be
+	included as a reference library in your project.
+
+	Once you have everything setup, THE MAIN ENTRY POINT IS THE LMS.Java 
+	file (i.e., LMS.java contains the main method). Run this to actually
+	load the LMS.
+
+	YOU MUST!!!! do the following. There is a java class 
+	"GlobalConnectionInformation.java" which contains information on how
+	to connect to your local MySQL database. You must specify the name
+	of the database (we have ours set to "library"), an authorized user
+	for your databases, and that users password. For example, a user may
+	be "root" and its password may be "root". 
