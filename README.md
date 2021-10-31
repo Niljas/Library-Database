@@ -15,7 +15,7 @@ CONTENTS OF THIS FOLDER:
 	- All source code
 	- JBDC a.k.a. "mysql-connector-java-8.0.25.jar"
 	- JTable + Extras "
-	- CSV files as given by Dr. Davis.
+	- CSV files as given 
 
 TO CREATE THE DATABASE:
 	In order to create the database, a Java class "LibraryManagementSystem" 
